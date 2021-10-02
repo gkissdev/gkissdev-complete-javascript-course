@@ -201,3 +201,12 @@ if (favNumber !== 23){
     console.log(`Why not 23? ${favNumber}`);
 }
 */
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense
+
