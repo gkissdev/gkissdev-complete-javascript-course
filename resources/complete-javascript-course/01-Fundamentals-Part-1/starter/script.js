@@ -121,7 +121,7 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
-*/
+
 // type conversion
 const inputYear = "1991";
 console.log(inputYear, Number(inputYear));
@@ -145,3 +145,59 @@ n=n-1;
 console.log(n);
 console.log(2+3+4+'5');
 console.log("10" - "4" - "3" -2 + "5");
+
+//falsy values: values that become false
+// when we try to convert them to a boolean
+// 0 '' undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(''));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+//converting anything else is true
+console.log(Boolean({}));
+console.log(Boolean("!"));
+console.log(Boolean(22));
+
+const money = -1;
+if(money){
+    console.log(`you have ${money} 💰`);
+} else {
+    console.log(`get some 💸 because you have ${money}`);
+}
+
+let height;
+if (height){
+    console.log(`height is ${height}`);
+}else
+    console.log(`height is ${height} 😢`);
+*/
+/*const age = 18;
+if(age === 18) console.log("you just become an adult 😊");
+// loose equal type coercion
+console.log(Boolean(18 == "18"));
+// strictly equal
+console.log(Boolean(18 === "18"));
+
+const favorite = prompt(`What is your favorite number?`);
+console.log(favorite, typeof favorite);
+if(favorite == 23){
+    console.log(`${favorite}`);
+}
+
+const favNumber = Number(prompt(`number`));
+if(favNumber === 23){
+    console.log(`${favNumber}`);
+}
+else if(favNumber ===9){
+    console.log(`${favNumber}`);}
+else if (favNumber === 7){
+    console.log(`${favNumber}`);
+} else {
+    console.log(`${favNumber} is not 23 or 7 nor 9`);
+}
+
+if (favNumber !== 23){
+    console.log(`Why not 23? ${favNumber}`);
+}
+*/
