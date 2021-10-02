@@ -1,4 +1,3 @@
-
 /*
 let js = "amazin";
 console.log(40 + 8 + 23 - 10);
@@ -107,8 +106,6 @@ console.log(`String
 multiple
 lines
     and tabs`);
-*/
-
 const age = 15;
 const minAge = 18;
 if (age >= minAge) {
@@ -124,3 +121,27 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
+// type conversion
+const inputYear = "1991";
+console.log(inputYear, Number(inputYear));
+console.log(Number(inputYear) + 18);
+console.log(Number("Gergely"));
+console.log(typeof NaN);
+console.log(String (23), 23);
+// type coercion
+// + converts to strings but if the string
+console.log(" I am " + 38 + " yo");
+// other operators converts string to numbers
+console.log( "23" - "10" - 3);
+console.log( "23" + "10" - 3);
+console.log( "23" + "10" + 3);
+console.log("23" * 2, 10 / "2");
+console.log("18" > 14);
+console.log("18" > "14");
+console.log("big" > 1);
+let n = "1" + 1;
+n=n-1;
+console.log(n);
+console.log(2+3+4+'5');
+console.log("10" - "4" - "3" -2 + "5");
