@@ -220,4 +220,59 @@ console.log(hasGoodVision && hasDriversLicense && isTried);
 isTried = false
 console.log(hasDriversLicense && hasGoodVision && isTried ? `🚗` : `🚶‍♂`);
 */
+/*
+const day = "sunday";
 
+switch (day) {
+    case "monday":
+        console.log("MSG Monday");
+        console.log("MSG Monday 2nd Line");
+        break;
+    case "tuesday":
+        console.log("MSG for Tuesday");
+        break;
+    case "wednesday":
+    case "thursday":
+        console.log("W and T msg");
+        break;
+    case "friday":
+        console.log("Friday MSG");
+        break;
+    case "saturday":
+    case "sunday":
+        console.log("Weekend");
+        break;
+    default:
+        console.log("not a valid day");
+}
+if (day === "monday") {
+    console.log("MSG Monday");
+    console.log("MSG Monday 2nd Line");
+} else if (day === "tuesday") {
+    console.log("MSG for Tuesday");
+} else if (day === "wednesday" || day === "thursday") {
+    console.log("W and T msg");
+} else if (day === "friday") {
+    console.log("Friday MSG");
+} else if (day === "saturday" || day === "sunday") {
+    console.log("Weekend");
+} else {
+    console.log("not a valid day");
+}
+*/
+/*
+const age = 25;
+
+const drink = age >= 18 ? `🍷` : `🚰`;
+console.log(drink);
+
+let drinkIf;
+if(age >= 18){
+    drinkIf = `🍷`;
+}else {
+    drinkIf = `🚰`;
+}
+console.log(drinkIf);
+
+console.log(`I can drink ${age >= 18 ? `🍷` : `🚰`}`);
+*/
