@@ -201,12 +201,23 @@ if (favNumber !== 23){
     console.log(`Why not 23? ${favNumber}`);
 }
 */
+/*
 const hasDriversLicense = true;
-const hasGoodVision = false;
-
+let hasGoodVision = false;
 console.log(hasDriversLicense && hasGoodVision);
 console.log(hasDriversLicense || hasGoodVision);
 console.log(!hasDriversLicense);
+const shouldDrive = hasDriversLicense && hasGoodVision
+//shorthand for if else statement
+//called: conditional operator
+console.log(shouldDrive ? `🚗` : `🚲`);
+hasGoodVision = true;
+console.log(hasDriversLicense && hasGoodVision ? `🚗` : `🚲`);
 
-const shouldDrive = hasDriversLicense
+let isTried = true;
+console.log(hasGoodVision || hasDriversLicense || isTried);
+console.log(hasGoodVision && hasDriversLicense && isTried);
+isTried = false
+console.log(hasDriversLicense && hasGoodVision && isTried ? `🚗` : `🚶‍♂`);
+*/
 
