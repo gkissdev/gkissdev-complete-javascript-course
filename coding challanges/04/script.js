@@ -17,7 +17,7 @@ Hints:
 
 let bill, tip, total;
 bill = 275;
-tip = bill < 50 || bill > 300 ? bill * 0.15 : bill * 20;
+tip = bill < 50 || bill > 300 ? bill * 0.20 : bill * 0.15;
 total = bill + tip;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`);
 console.log(`The bill was ${bill}, the tip was ${bill < 50 || bill > 300 ? bill * 0.15 : bill * 20}, and the total value ${bill + (bill < 50 || bill > 300 ? bill * 0.15 : bill * 20)}`);
