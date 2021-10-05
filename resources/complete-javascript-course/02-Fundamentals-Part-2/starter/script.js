@@ -61,7 +61,7 @@ function fruitProcessor(apples, oranges){
     return `🥤 with ${ applePieces} apple pieces and ${ orangePieces} orange pieces`
 }
 console.log(fruitProcessor(1, 2));
-*/
+
 
 const calcAge = function (birthYear) {
     return 2021 - birthYear
@@ -78,8 +78,8 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 }
 console.log(yearsUntilRetirement(1983, "G"));
 console.log(yearsUntilRetirement(1950, "GY"));
+*/
 
-
-
+const frineds = [];
 
 
