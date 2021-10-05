@@ -79,7 +79,57 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 console.log(yearsUntilRetirement(1983, "G"));
 console.log(yearsUntilRetirement(1950, "GY"));
 */
+/* array basics
+const friends = [`mic`, `ste`, `pet`]
+console.log(friends);
+const yy = new Array(1991, 1992, 1993)
+console.log(friends[0]);
+console.log(friends[2]);
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+friends[2] = `jay`
+console.log(friends);
+const j = 'dev'
+ const g = ['g', 'kiss', 2021-1983, j, friends]
+console.log(g);
+console.log(g.length);
 
-const frineds = [];
+const calcAge = function (by)  {
+  return 2021 - by;
+}
 
+const years =[1990, 1983,1985, 2020, 2000]
+console.log(calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -1]));
+const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length -1])]
+console.log(ages);
+*/
+/*basic array functions
+//add elements
+const friends = [`mic`, `ste`, `pet`]
+friends.push('jaj')
+console.log(friends);
+console.log(friends.push('zol'));
+console.log(friends);
+friends.unshift('gg')
+console.log(friends);
+//remove elements
+friends.pop();
+console.log(friends);
+console.log(friends.pop());
+friends.shift();
+console.log(friends);
+console.log(friends.shift());
+console.log(friends);
+
+console.log(friends.indexOf(`pet`));
+console.log(friends.indexOf("pet"));
+console.log(friends.indexOf("ddi"));
+console.log(friends.includes('pet'));
+console.log(friends.includes('lll'));
+friends.push(23);
+console.log(friends);
+console.log(friends.includes(`23`));
+console.log(friends.includes(23));
+console.log(`${friends.includes('pet')?`yoo pet`:``}`);
+*/
 
