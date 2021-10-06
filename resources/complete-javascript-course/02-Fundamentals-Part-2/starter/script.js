@@ -132,8 +132,7 @@ console.log(friends.includes(`23`));
 console.log(friends.includes(23));
 console.log(`${friends.includes('pet')?`yoo pet`:``}`);
 */
-
-/* Objects */
+/* Objects
 // object literal syntax
 const gergely = {
     firstName: 'gergely',
@@ -156,7 +155,7 @@ console.log(gergely[`last${nameKey}`]);
     console.log(`The data you requested is: ${gergely[interested]}`);
 else {
     console.log(`value ""${interested}" not exist`);
-}*/
+}
 gergely.location = 'uk';
 gergely['social'] = '@sg'
 console.log(gergely);
@@ -164,8 +163,37 @@ console.log(
     `${gergely.firstName} has ${gergely.friends.length} friends, 
     and his best friend is called ${gergely.friends[0]}.`
 );
+*/
+/* Object methods
+const gergely = {
+    firstName: 'gergely',
+    lastName: 'kiss',
+    birthYear: 1983,
+    job: 'cto',
+    friends: [`mic`, `ste`, `pet`],
+    hasDriversLicense: false,
 
-
+        calcAge: function (birthYear){
+            return 2021 - birthYear
+        }
+    calcAge: function (){
+        //console.log(this);
+        return 2021 - this.birthYear
+    }
+    calcAge: function () {
+        this.age = 2021 - this.birthYear
+        return this.age
+    },
+    getInfo: function () {
+        this.info = `${this.firstName} is a ${this.calcAge()} old ${this.job}, 
+        and he has ${this.hasDriversLicense ? `a` : `no`} drivers license`
+        return this.info
+    }
+}
+console.log(gergely.calcAge());
+console.log(gergely.age);
+console.log(gergely.getInfo());
+*/
 
 
 
