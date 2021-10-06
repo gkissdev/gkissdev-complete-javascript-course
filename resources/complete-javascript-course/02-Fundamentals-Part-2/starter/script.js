@@ -133,3 +133,41 @@ console.log(friends.includes(23));
 console.log(`${friends.includes('pet')?`yoo pet`:``}`);
 */
 
+/* Objects */
+// object literal syntax
+const gergely = {
+    firstName: 'gergely',
+    lastName: 'kiss',
+    age: 2021 -1983,
+    job: 'd',
+    friends : [`mic`, `ste`, `pet`]
+}
+console.log(gergely);
+
+console.log(gergely.lastName);
+console.log(gergely.friends);
+console.log(gergely["job"]);
+const  nameKey= 'Name';
+console.log(gergely[`first${nameKey}`]);
+console.log(gergely[`last${nameKey}`]);
+
+//const interested = prompt(`WHat do you want to know about gergely`)
+/*if(gergely[interested])
+    console.log(`The data you requested is: ${gergely[interested]}`);
+else {
+    console.log(`value ""${interested}" not exist`);
+}*/
+gergely.location = 'uk';
+gergely['social'] = '@sg'
+console.log(gergely);
+console.log(
+    `${gergely.firstName} has ${gergely.friends.length} friends, 
+    and his best friend is called ${gergely.friends[0]}.`
+);
+
+
+
+
+
+
+
