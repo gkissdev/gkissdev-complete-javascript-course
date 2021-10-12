@@ -195,6 +195,69 @@ console.log(gergely.age);
 console.log(gergely.getInfo());
 */
 
+// Loops
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+}
+
+
+const g = ['g', 'kiss', 2021 - 1983, 'dev', ['Mic', 'Pet', 'Step']]
+const types = [];
+for (let i = 0; i < g.length; i++) {
+    console.log(`${i} . element of the g array is: ${g[i]} and typeof ${typeof (g[i])}`);
+    // types[i] = typeof(g[i])
+    types.push(typeof g[i])
+}
+for (let i = 0; i < g.length; i++) {
+    console.log(`types: ${types[i]} g: ${g[i]} and typeof ${typeof (g[i])}`);
+}
+
+const years = [1991, 2007, 1969, 2020]
+const ages = []
+for (let i = 0; i < years.length; i++) {
+    ages.push(2021 - years[i])
+}
+console.log(ages);
+
+
+// continue and break statements
+// continue: continue the loop but break the current process
+console.log('ONLY STRINGS');
+for (let i = 0; i < g.length; i++) {
+    if (typeof g [i] !== 'string') continue
+        console.log(`${i} . element of the g array is: ${g[i]} and typeof ${typeof (g[i])}`);
+}
+// break: finish the loop
+console.log('BREAK WITH NUMBER');
+for (let i = 0; i < g.length; i++) {
+    if (typeof g [i] === 'number') break
+    console.log(`${i} . element of the g array is: ${g[i]} and typeof ${typeof (g[i])}`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
