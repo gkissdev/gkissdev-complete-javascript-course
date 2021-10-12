@@ -194,8 +194,7 @@ console.log(gergely.calcAge());
 console.log(gergely.age);
 console.log(gergely.getInfo());
 */
-
-// Loops
+/* Loops
 
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
@@ -236,15 +235,37 @@ for (let i = 0; i < g.length; i++) {
 }
 
 
+const g = ['g', 'kiss', 2021 - 1983, 'dev', ['Mic', 'Pet', 'Step']]
+for (let i = g.length - 1; i >=0 ; i--) {
+    console.log(g[i]);
+}
+
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`--------- starting exercise ${exercise}`);
+    for (let rep = 1; rep <6; rep++) {
+        console.log( `Exercise ${exercise} lifting weight ${rep} 🏋️‍♂️`);
+    }
+}
 
 
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+}
+console.log(`----while----`);
+let rep =1;
+while (rep <= 10){
+    console.log(`Lifting weights repetition ${rep} 🏋️‍♂️`);
+    rep++;
+}
 
+let dice = 2;
 
-
-
-
-
-
+while (dice !== 6) {
+    console.log(`${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1
+}
+console.log(dice);
+*/
 
 
 
